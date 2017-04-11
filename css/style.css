@@ -1,0 +1,56 @@
+body{
+	background:#fff;
+}
+
+h3{
+	color:#1E88E5;
+}
+h4{
+	text-transform: capitalize; 
+	display:inline;
+}
+
+.pathwayHolder{
+	max-width:100%; 
+	height:800px;
+}
+
+.pathwayHolder #map_container{
+	height:100% !important;
+}
+
+.backgroundDefault{
+	background:#DCDCDC;
+	color: #fff;
+}
+
+.backgroundGreen{
+	background: green;
+	color: #fff;
+}
+
+.floatRight{float:right}
+
+.segment-group{cursor:pointer}
+
+.statistics{
+	display:none;
+}
+
+.showMolecules{
+	cursor:pointer; 
+	display:inline; 
+	color:#1E88E5; 
+	font-size:10px;
+}
+
+/*override escher styles*/
+.btn{
+	border-radius: 0px;
+}
+
+.btn-default, .btn-default:hover {
+    background-image: none !important;
+    background: #1E88E5;
+    border:1px solid #1E88E5;
+}
